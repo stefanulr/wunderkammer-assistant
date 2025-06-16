@@ -1,4 +1,4 @@
-# Text-Optimierung Tool
+# Wunderkammer Assistant
 
 Ein modernes Web-Tool zur Optimierung von Produkttexten mit KI-Unterstützung.
 
@@ -14,8 +14,8 @@ Ein modernes Web-Tool zur Optimierung von Produkttexten mit KI-Unterstützung.
 
 1. Repository klonen:
 ```bash
-git clone [repository-url]
-cd [repository-name]
+git clone https://github.com/stefanulr/wunderkammer-assistant.git
+cd wunderkammer-assistant
 ```
 
 2. Abhängigkeiten installieren:
