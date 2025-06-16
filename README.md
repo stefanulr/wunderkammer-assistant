@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Text-Optimierung Tool
 
-## Getting Started
+Ein modernes Web-Tool zur Optimierung von Produkttexten mit KI-Unterstützung.
 
-First, run the development server:
+## Features
 
+- Texteingabe und -optimierung
+- Keyword-basierte SEO-Optimierung
+- Anpassbare Tonalität
+- Zielgruppen-spezifische Anpassung
+- Redundanz-Erkennung und -Entfernung
+
+## Installation
+
+1. Repository klonen:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [repository-url]
+cd [repository-name]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Abhängigkeiten installieren:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Umgebungsvariablen einrichten:
+- Kopieren Sie `.env.local.example` zu `.env.local`
+- Fügen Sie Ihren OpenAI API-Key ein
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Entwicklungsserver starten:
+```bash
+npm run dev
+```
 
-## Learn More
+## Verwendung
 
-To learn more about Next.js, take a look at the following resources:
+1. Öffnen Sie die Anwendung im Browser (standardmäßig unter `http://localhost:3000`)
+2. Geben Sie Ihre Produkttexte in das Textfeld ein
+3. Optional: Geben Sie wichtige Keywords und Zielgruppe an
+4. Wählen Sie den gewünschten Ton
+5. Klicken Sie auf "Text optimieren"
+6. Der optimierte Text wird angezeigt
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologien
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- OpenAI API
+- React Hook Form
+- Zod
 
-## Deploy on Vercel
+## Lizenz
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
